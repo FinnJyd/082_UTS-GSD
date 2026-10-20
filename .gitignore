@@ -30,7 +30,6 @@ __pycache__/
 data/raw/
 UTS-DATA/item_properties*.csv
 data/item_properties*.csv
-data/events.csv
 UTS-DATA/events.csv
 
 # =====================================
@@ -53,3 +52,12 @@ UTS-DATA/events.csv
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# =====================================
+# Exam / Question Documents
+# =====================================
+2601_UTS-GSD.md
+2601_UTS-GSD.pdf
+*UTS-GSD.md
+*UTS-GSD.pdf
+
