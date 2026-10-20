@@ -5,10 +5,10 @@ This repository contains the complete implementation, analysis, and documentatio
 ---
 
 ## 👤 Student Profile
-* **Name** : [Your Full Name]
-* **Student ID (NIM)** : [Your NIM]
-* **Class** : [Your Class / Parallel]
-* **Course** : Graph Data Science (Graf Sains Data - 3 SKS)
+* **Name** : Alfin Jayadi
+* **Student ID (NIM)** : 24031554082
+* **Class** : INT24
+* **Course** : Graph Data Science
 
 ---
 
@@ -50,30 +50,5 @@ This project models and analyzes implicit e-commerce user-item interactions (`vi
 ├── Prologue.ipynb                  # Section 1: Neo4j setup, driver verification & checkpoint answers
 ├── UTS.ipynb                       # Section 2: Complete exam solutions (EDA, VSM, Similarity, Analytics)
 ├── requirements.txt                # Python dependencies (neo4j, pandas, scipy, scikit-learn, networkx, matplotlib)
-├── .env.example                    # Environment variable template for Neo4j credentials
-├── .gitignore                      # Git exclusion rules
 └── README.md                       # Main documentation
 ```
-
----
-
-## 🚀 Setup & Execution
-
-1. **Environment Setup:**
-   ```bash
-   uv venv --python 3.10
-   .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-2. **Configure Neo4j Connection:**
-   Copy `.env.example` to `.env` and configure your credentials:
-   ```env
-   NEO4J_URI=neo4j://localhost:7687
-   NEO4J_USER=neo4j
-   NEO4J_PASSWORD=your_password
-   ```
-
-3. **Run Notebooks:**
-   * Open `Prologue.ipynb` to verify preliminary setup and database connection.
-   * Open `UTS.ipynb` and select kernel `Python (GSD UTS)` to run the entire exam pipeline.
