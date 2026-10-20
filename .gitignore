@@ -1,0 +1,55 @@
+# =====================================
+# Virtual Environments
+# =====================================
+.venv/
+venv/
+myvenv/
+env/
+ENV/
+
+# =====================================
+# Python Cache & Bytecode
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =====================================
+# Jupyter Notebook Checkpoints
+# =====================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =====================================
+# Dataset Mentah & File Berukuran Besar (>50MB)
+# (Hanya push dataset hasil filter P1 & P2)
+# =====================================
+*.zip
+*.tar.gz
+data/raw/
+UTS-DATA/item_properties*.csv
+data/item_properties*.csv
+data/events.csv
+UTS-DATA/events.csv
+
+# =====================================
+# Secrets & Environment Variables
+# =====================================
+.env
+*.env
+
+# =====================================
+# IDE & Editor Settings
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# OS Generated Files
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
